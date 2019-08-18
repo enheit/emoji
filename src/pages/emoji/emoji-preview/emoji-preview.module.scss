@@ -1,0 +1,49 @@
+.highlighter {
+  background: #cae7ff;
+}
+
+.emojiContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: all .05s linear;
+
+  &:hover {
+    // background: #ccc;
+    cursor: pointer;
+    transform: scale(1.2)
+  }
+}
+
+.charContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #fefefe;
+}
+
+.char {
+  font-size: 32px;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0;
+  text-transform: capitalize;
+  font-size: 12px;
+  text-align: center;
+}
+
+.codes {
+  margin: 0;
+  font-size: 12px;
+}

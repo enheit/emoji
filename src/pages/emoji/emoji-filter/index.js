@@ -1,0 +1,1 @@
+export { EmojiFilter } from './emoji-filter.component';
